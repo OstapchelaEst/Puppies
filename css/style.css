@@ -798,14 +798,17 @@ body {
    letter-spacing: 0.15px;
    color: #4b4b4b;
    text-transform: uppercase;
-}
-
-.footer-spollers__title p {
    position: relative;
+
    display: inline-block;
+
+   max-width: max-content;
+   align-self: center;
 }
 
-.footer-spollers__title p::before {
+
+
+.footer-spollers__title::before {
    content: "";
    position: absolute;
    width: 16px;
@@ -856,7 +859,7 @@ body {
    transition: all 0.3s ease 0s;
 }
 
-.footer-spollers__item ._spoller-active p::before {
+.footer-spollers__item ._spoller-active::before {
    -webkit-transform: translateY(4px) rotate(180deg);
    -ms-transform: translateY(4px) rotate(180deg);
    transform: translateY(4px) rotate(180deg);

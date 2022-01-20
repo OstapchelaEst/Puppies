@@ -303,6 +303,7 @@ body {
 
 .bottom-menu {
    margin-top: 30px;
+   margin-bottom: 25px;
 }
 
 .bottom-menu__inner {
@@ -544,6 +545,12 @@ body {
    color: #000;
    padding-right: 17px;
    position: relative;
+   transition: all 0.3s ease 0s;
+}
+
+.itme-bottom__title:hover {
+   color:#f2726f ;
+
 }
 
 .itme-bottom__title::after {
